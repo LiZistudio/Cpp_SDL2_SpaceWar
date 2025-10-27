@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Users\shucai\Desktop\Cpp_SDL2_SpaceWar\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Users\shucai\Desktop\Cpp_SDL2_SpaceWar\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{35D26D7C-CBF8-337E-B2D5-8FFDDE2002C2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
