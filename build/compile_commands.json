@@ -1,8 +1,8 @@
 [
 {
-  "directory": "D:/Users/shucai/Desktop/Cpp_SDL2_SpaceWar/build",
-  "command": "\"D:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe\"  /nologo /TP -external:ID:\\SDL2Library\\SDL2\\cmake\\..\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /FoCMakeFiles\\SDLSpaceWar.dir\\main.cpp.obj /FdCMakeFiles\\SDLSpaceWar.dir\\ /FS -c D:\\Users\\shucai\\Desktop\\Cpp_SDL2_SpaceWar\\main.cpp",
-  "file": "D:/Users/shucai/Desktop/Cpp_SDL2_SpaceWar/main.cpp",
-  "output": "D:/Users/shucai/Desktop/Cpp_SDL2_SpaceWar/build/CMakeFiles/SDLSpaceWar.dir/main.cpp.obj"
+  "directory": "/Users/kk/Desktop/Cpp_SDL2_SpaceWar/build",
+  "command": "/usr/bin/clang++  -isystem /opt/homebrew/Cellar/sdl2/2.32.6/include/SDL2 -g -std=gnu++11 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/SDLSpaceWar-Darwin.dir/main.cpp.o -c /Users/kk/Desktop/Cpp_SDL2_SpaceWar/main.cpp",
+  "file": "/Users/kk/Desktop/Cpp_SDL2_SpaceWar/main.cpp",
+  "output": "CMakeFiles/SDLSpaceWar-Darwin.dir/main.cpp.o"
 }
 ]
