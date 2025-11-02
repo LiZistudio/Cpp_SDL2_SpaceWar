@@ -26,13 +26,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 29,
+				"line" : 32,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 32,
+				"line" : 35,
 				"parent" : 0
 			},
 			{
@@ -70,6 +70,21 @@
 					"backtrace" : 2,
 					"isSystem" : true,
 					"path" : "/opt/homebrew/Cellar/sdl2/2.32.6/include/SDL2"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/homebrew/Cellar/sdl2_image/2.8.8/include/SDL2"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/homebrew/Cellar/sdl2_mixer/2.8.1_1/include/SDL2"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "/opt/homebrew/Cellar/sdl2_ttf/2.24.0/include/SDL2"
 				}
 			],
 			"language" : "CXX",
@@ -108,6 +123,21 @@
 			{
 				"backtrace" : 2,
 				"fragment" : "/opt/homebrew/Cellar/sdl2/2.32.6/lib/libSDL2.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/opt/homebrew/Cellar/sdl2_image/2.8.8/lib/libSDL2_image.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/opt/homebrew/Cellar/sdl2_mixer/2.8.1_1/lib/libSDL2_mixer.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "/opt/homebrew/Cellar/sdl2_ttf/2.24.0/lib/libSDL2_ttf.dylib",
 				"role" : "libraries"
 			}
 		],

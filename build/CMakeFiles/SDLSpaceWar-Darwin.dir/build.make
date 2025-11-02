@@ -96,6 +96,9 @@ SDLSpaceWar__Darwin_EXTERNAL_OBJECTS =
 /Users/kk/Desktop/Cpp_SDL2_SpaceWar/SDLSpaceWar-Darwin: CMakeFiles/SDLSpaceWar-Darwin.dir/main.cpp.o
 /Users/kk/Desktop/Cpp_SDL2_SpaceWar/SDLSpaceWar-Darwin: CMakeFiles/SDLSpaceWar-Darwin.dir/build.make
 /Users/kk/Desktop/Cpp_SDL2_SpaceWar/SDLSpaceWar-Darwin: /opt/homebrew/Cellar/sdl2/2.32.6/lib/libSDL2.dylib
+/Users/kk/Desktop/Cpp_SDL2_SpaceWar/SDLSpaceWar-Darwin: /opt/homebrew/Cellar/sdl2_image/2.8.8/lib/libSDL2_image.dylib
+/Users/kk/Desktop/Cpp_SDL2_SpaceWar/SDLSpaceWar-Darwin: /opt/homebrew/Cellar/sdl2_mixer/2.8.1_1/lib/libSDL2_mixer.dylib
+/Users/kk/Desktop/Cpp_SDL2_SpaceWar/SDLSpaceWar-Darwin: /opt/homebrew/Cellar/sdl2_ttf/2.24.0/lib/libSDL2_ttf.dylib
 /Users/kk/Desktop/Cpp_SDL2_SpaceWar/SDLSpaceWar-Darwin: CMakeFiles/SDLSpaceWar-Darwin.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/kk/Desktop/Cpp_SDL2_SpaceWar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /Users/kk/Desktop/Cpp_SDL2_SpaceWar/SDLSpaceWar-Darwin"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SDLSpaceWar-Darwin.dir/link.txt --verbose=$(VERBOSE)

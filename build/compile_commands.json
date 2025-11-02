@@ -1,7 +1,7 @@
 [
 {
   "directory": "/Users/kk/Desktop/Cpp_SDL2_SpaceWar/build",
-  "command": "/usr/bin/clang++  -isystem /opt/homebrew/Cellar/sdl2/2.32.6/include/SDL2 -g -std=gnu++11 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/SDLSpaceWar-Darwin.dir/main.cpp.o -c /Users/kk/Desktop/Cpp_SDL2_SpaceWar/main.cpp",
+  "command": "/usr/bin/clang++  -isystem /opt/homebrew/Cellar/sdl2/2.32.6/include/SDL2 -isystem /opt/homebrew/Cellar/sdl2_image/2.8.8/include/SDL2 -isystem /opt/homebrew/Cellar/sdl2_mixer/2.8.1_1/include/SDL2 -isystem /opt/homebrew/Cellar/sdl2_ttf/2.24.0/include/SDL2 -g -std=gnu++11 -arch arm64 -Wall -Wextra -Wpedantic -o CMakeFiles/SDLSpaceWar-Darwin.dir/main.cpp.o -c /Users/kk/Desktop/Cpp_SDL2_SpaceWar/main.cpp",
   "file": "/Users/kk/Desktop/Cpp_SDL2_SpaceWar/main.cpp",
   "output": "CMakeFiles/SDLSpaceWar-Darwin.dir/main.cpp.o"
 }

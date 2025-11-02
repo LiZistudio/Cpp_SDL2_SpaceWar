@@ -841,4 +841,7 @@ CMakeFiles/SDLSpaceWar-Darwin.dir/main.cpp.o: \
   /opt/homebrew/Cellar/sdl2/2.32.6/include/SDL2/SDL_timer.h \
   /opt/homebrew/Cellar/sdl2/2.32.6/include/SDL2/SDL_version.h \
   /opt/homebrew/Cellar/sdl2/2.32.6/include/SDL2/SDL_locale.h \
-  /opt/homebrew/Cellar/sdl2/2.32.6/include/SDL2/SDL_misc.h
+  /opt/homebrew/Cellar/sdl2/2.32.6/include/SDL2/SDL_misc.h \
+  /opt/homebrew/Cellar/sdl2_image/2.8.8/include/SDL2/SDL_image.h \
+  /opt/homebrew/Cellar/sdl2_mixer/2.8.1_1/include/SDL2/SDL_mixer.h \
+  /opt/homebrew/Cellar/sdl2_ttf/2.24.0/include/SDL2/SDL_ttf.h

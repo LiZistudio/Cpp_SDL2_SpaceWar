@@ -843,8 +843,15 @@ CMakeFiles/SDLSpaceWar-Darwin.dir/main.cpp.o: /Users/kk/Desktop/Cpp_SDL2_SpaceWa
   /opt/homebrew/Cellar/sdl2/2.32.6/include/SDL2/SDL_version.h \
   /opt/homebrew/Cellar/sdl2/2.32.6/include/SDL2/SDL_video.h \
   /opt/homebrew/Cellar/sdl2/2.32.6/include/SDL2/begin_code.h \
-  /opt/homebrew/Cellar/sdl2/2.32.6/include/SDL2/close_code.h
+  /opt/homebrew/Cellar/sdl2/2.32.6/include/SDL2/close_code.h \
+  /opt/homebrew/Cellar/sdl2_image/2.8.8/include/SDL2/SDL_image.h \
+  /opt/homebrew/Cellar/sdl2_mixer/2.8.1_1/include/SDL2/SDL_mixer.h \
+  /opt/homebrew/Cellar/sdl2_ttf/2.24.0/include/SDL2/SDL_ttf.h
 
+
+/opt/homebrew/Cellar/sdl2_ttf/2.24.0/include/SDL2/SDL_ttf.h:
+
+/opt/homebrew/Cellar/sdl2_mixer/2.8.1_1/include/SDL2/SDL_mixer.h:
 
 /opt/homebrew/Cellar/sdl2/2.32.6/include/SDL2/close_code.h:
 
@@ -2159,6 +2166,8 @@ CMakeFiles/SDLSpaceWar-Darwin.dir/main.cpp.o: /Users/kk/Desktop/Cpp_SDL2_SpaceWa
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/stable_sort.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__algorithm/sort.h:
+
+/opt/homebrew/Cellar/sdl2_image/2.8.8/include/SDL2/SDL_image.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/c++/v1/__type_traits/dependent_type.h:
 
