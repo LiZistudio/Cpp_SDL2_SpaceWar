@@ -2,6 +2,12 @@
 cmake_minimum_required(VERSION 3.10.0)
 project(SDLSpaceWar VERSION 0.1.0 LANGUAGES C CXX)
 
+# Workaround: allow configuring packages whose config files use very old cmake_minimum_required
+# (等价于在命令行添加 -DCMAKE_POLICY_VERSION_MINIMUM=3.5)
+if(NOT DEFINED CMAKE_POLICY_VERSION_MINIMUM)
+    set(CMAKE_POLICY_VERSION_MINIMUM 3.5 CACHE STRING "Allow older package config cmake_minimum_required")
+endif()
+
 #设置C++标准
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)

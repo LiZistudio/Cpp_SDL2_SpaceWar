@@ -1,6 +1,0 @@
-# ninja log v6
-280	918	7832882049959896	SDLSpaceWar.exe	4d32f0cc52982f3
-9	279	7832882047254134	CMakeFiles/SDLSpaceWar.dir/main.cpp.obj	bf500dfa8cc01b07
-14	21	7832882045450495	clean	cc48df9061fc650c
-4	103	7832882385136763	build.ninja	f59bbc4d9d730d7d
-4	103	7832882385106757	D:/Users/shucai/Desktop/Cpp_SDL2_SpaceWar/build/cmake_install.cmake	f59bbc4d9d730d7d

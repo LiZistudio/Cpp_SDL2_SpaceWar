@@ -4,6 +4,8 @@
 #include <SDL_mixer.h>
 #include <SDL_ttf.h>
 
+#define BGM "assets\\music\\06_Battle_in_Space_Intro.ogg"
+
 int main(int, char**) {
     // 初始化SDL
     if (SDL_Init(SDL_INIT_EVERYTHING) != 0) {
@@ -12,7 +14,7 @@ int main(int, char**) {
     }
 
     //创建窗口
-    SDL_Window *window = SDL_CreateWindow("SDL2 Window",
+    SDL_Window *window = SDL_CreateWindow("SDL2 Window", 
                                                   SDL_WINDOWPOS_CENTERED,
                                                   SDL_WINDOWPOS_CENTERED,
                                                   800, 600,
@@ -40,7 +42,7 @@ int main(int, char**) {
         return 1;
     }
     //加载音乐文件
-    Mix_Music *bgm = Mix_LoadMUS("assets/music/03_Racing_Through_Asteroids_Loop.ogg");
+    Mix_Music *bgm = Mix_LoadMUS(BGM);
     if (!bgm) {
         std::cerr << "Mix_LoadMUS Error: " << Mix_GetError() << std::endl;
         return 1;

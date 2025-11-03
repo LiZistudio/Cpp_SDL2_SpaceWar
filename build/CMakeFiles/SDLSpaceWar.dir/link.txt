@@ -1,1 +1,0 @@
-/usr/bin/clang++ -g -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/SDLSpaceWar.dir/main.cpp.o -o /Users/kk/Desktop/Cpp_SDL2_SpaceWar/SDLSpaceWar   -L/opt/homebrew/Cellar/sdl2/2.32.6/lib  -Wl,-rpath,/opt/homebrew/Cellar/sdl2/2.32.6/lib /opt/homebrew/Cellar/sdl2/2.32.6/lib/libSDL2.dylib /opt/homebrew/Cellar/sdl2/2.32.6/lib/libSDL2main.a
