@@ -35,7 +35,11 @@ find_package(SDL2_mixer REQUIRED)
 find_package(SDL2_ttf REQUIRED)
 
 #添加可执行文件
-add_executable(${TARGET} main.cpp)
+add_executable(${TARGET} 
+                        source/main.cpp
+                        source/Game.cpp
+                        source/SceneMain.cpp
+                        )
 
 #链接SDL2库
 target_link_libraries(${TARGET} 

@@ -1,0 +1,20 @@
+[
+{
+  "directory": "D:/Users/shucai/Desktop/Cpp_SDL2_SpaceWar/build",
+  "command": "\"D:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe\"  /nologo /TP -external:ID:\\SDL2Library\\SDL2\\cmake\\..\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /W4 /FoCMakeFiles\\SDLSpaceWar-Windows.dir\\source\\main.cpp.obj /FdCMakeFiles\\SDLSpaceWar-Windows.dir\\ /FS -c D:\\Users\\shucai\\Desktop\\Cpp_SDL2_SpaceWar\\source\\main.cpp",
+  "file": "D:/Users/shucai/Desktop/Cpp_SDL2_SpaceWar/source/main.cpp",
+  "output": "D:/Users/shucai/Desktop/Cpp_SDL2_SpaceWar/build/CMakeFiles/SDLSpaceWar-Windows.dir/source/main.cpp.obj"
+},
+{
+  "directory": "D:/Users/shucai/Desktop/Cpp_SDL2_SpaceWar/build",
+  "command": "\"D:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe\"  /nologo /TP -external:ID:\\SDL2Library\\SDL2\\cmake\\..\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /W4 /FoCMakeFiles\\SDLSpaceWar-Windows.dir\\source\\Game.cpp.obj /FdCMakeFiles\\SDLSpaceWar-Windows.dir\\ /FS -c D:\\Users\\shucai\\Desktop\\Cpp_SDL2_SpaceWar\\source\\Game.cpp",
+  "file": "D:/Users/shucai/Desktop/Cpp_SDL2_SpaceWar/source/Game.cpp",
+  "output": "D:/Users/shucai/Desktop/Cpp_SDL2_SpaceWar/build/CMakeFiles/SDLSpaceWar-Windows.dir/source/Game.cpp.obj"
+},
+{
+  "directory": "D:/Users/shucai/Desktop/Cpp_SDL2_SpaceWar/build",
+  "command": "\"D:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.50.35717\\bin\\Hostx64\\x64\\cl.exe\"  /nologo /TP -external:ID:\\SDL2Library\\SDL2\\cmake\\..\\include -external:W0 /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 /W4 /FoCMakeFiles\\SDLSpaceWar-Windows.dir\\source\\SceneMain.cpp.obj /FdCMakeFiles\\SDLSpaceWar-Windows.dir\\ /FS -c D:\\Users\\shucai\\Desktop\\Cpp_SDL2_SpaceWar\\source\\SceneMain.cpp",
+  "file": "D:/Users/shucai/Desktop/Cpp_SDL2_SpaceWar/source/SceneMain.cpp",
+  "output": "D:/Users/shucai/Desktop/Cpp_SDL2_SpaceWar/build/CMakeFiles/SDLSpaceWar-Windows.dir/source/SceneMain.cpp.obj"
+}
+]
