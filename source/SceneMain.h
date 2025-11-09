@@ -5,8 +5,8 @@
 
  class SceneMain : public Scene {
 public:
-    SceneMain();
-    ~SceneMain();
+    SceneMain() {}
+    ~SceneMain() {}
 
     void init() override;
     void handleEvent(SDL_Event* event) override;
@@ -14,9 +14,6 @@ public:
     void render() override;
     void clean() override;
 private:
-    SDL_Window* mainWindow = nullptr;
-    SDL_Renderer* renderer = nullptr;
-    SDL_Rect rect;
-};
-
+    
+ };
 #endif // SCENEMAIN_H

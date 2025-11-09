@@ -15,6 +15,5 @@ public:
     virtual void clean() = 0;
 
 private:
-    SDL_Window* window = nullptr;
 };
 #endif // SCENE_H
