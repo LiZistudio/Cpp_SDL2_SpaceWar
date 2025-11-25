@@ -1,7 +1,9 @@
 #include "Game.h"
 #include "sceneMain.h"
+#include <SDL_image.h>
 
-Game::Game() {
+Game::Game()
+{
     // Constructor implementation
 }
 
@@ -12,15 +14,26 @@ Game::~Game() {
 void Game::run() {
     while (isRunning)
     {
+        auto startTime = SDL_GetTicks();
         SDL_Event event;
         handleEvent(&event);
         update();
         render();
+        auto endTime = SDL_GetTicks();
+        float diffTime = endTime - startTime;
+        if (diffTime < frameTime) {
+            SDL_Delay(frameTime - diffTime);
+            deltaTime = frameTime;
+        }else {
+            deltaTime = diffTime;
+        }
+        
     }
     
 }
 
 void Game::init() {
+    frameTime = 1000.0f / 60.0f; //60帧每秒
     //SDL初始化
     if (SDL_Init(SDL_INIT_EVERYTHING) != 0) {
         SDL_LogError( SDL_LOG_CATEGORY_ERROR, "SDL_Init Error: %s", SDL_GetError());
@@ -41,11 +54,19 @@ void Game::init() {
     //创建渲染器
     renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
     if (renderer == nullptr) {
-        SDL_LogError( SDL_LOG_CATEGORY_ERROR, "创建渲染器失败,SDL_CreateRenderer Error: %s", SDL_GetError());
+        SDL_LogError( SDL_LOG_CATEGORY_ERROR, "创建渲染器失败,SDL_CreateRenderer Error: %s", IMG_GetError());
         isRunning = false;
     }
 
+    if (IMG_Init(IMG_INIT_PNG) == 0)
+    {
+        SDL_LogError( SDL_LOG_CATEGORY_ERROR, "初始化IMG库失败,IMG_Init Error: %s", SDL_GetError());
+        isRunning = false;
+    }
+    
+
     currentScene = new SceneMain();
+    currentScene->init();
                                   
 }
 
@@ -53,9 +74,10 @@ void Game::clean() {
     if (currentScene != nullptr) {
         currentScene->clean();
         delete currentScene;
-        currentScene = nullptr;
     }
 
+    //清理SDL和IMG
+    IMG_Quit();
     SDL_DestroyRenderer(renderer);
     SDL_DestroyWindow(window);
     SDL_Quit();
@@ -72,7 +94,7 @@ void Game::changeScene(Scene* scene) {
 }
 
 void Game::update() {
-    currentScene -> update();
+    currentScene -> update(deltaTime);
 }
 
 void Game::render() {

@@ -2,18 +2,24 @@
 #define SCENEMAIN_H
 
 #include "Scene.h"
+#include "Object.h"
+
+class Game;
 
  class SceneMain : public Scene {
 public:
-    SceneMain() {}
-    ~SceneMain() {}
+    SceneMain();
+    ~SceneMain();
 
     void init() override;
     void handleEvent(SDL_Event* event) override;
-    void update() override;
+    void update(float deltaTime) override;
     void render() override;
     void clean() override;
+
+    void keyboardControl(float deltaTime);
 private:
-    
+    Game& game;
+    Player player;
  };
 #endif // SCENEMAIN_H
