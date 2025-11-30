@@ -3,6 +3,7 @@
 
 #include "Scene.h"
 #include "Object.h"
+#include <list>
 
 class Game;
 
@@ -21,5 +22,6 @@ public:
 private:
     Game& game;
     Player player;
+    std::list<Bullet> bullets; //子弹列表
  };
 #endif // SCENEMAIN_H

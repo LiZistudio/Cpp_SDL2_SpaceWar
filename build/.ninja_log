@@ -1,24 +1,7 @@
 # ninja log v6
-6	1132	7857780152610310	CMakeFiles/SDLSpaceWar-Windows.dir/source/SceneMain.cpp.obj	77f4928ab874530c
+24	1234	7860044021056713	CMakeFiles/SDLSpaceWar-Windows.dir/source/SceneMain.cpp.obj	77f4928ab874530c
 10	297	7843109432718373	CMakeFiles/SDLSpaceWar-Windows.dir/main.cpp.obj	a3dca94b9e533d8d
-1132	1446	7857780163864000	D:/Users/shucai/Desktop/Cpp_SDL2_SpaceWar/SDLSpaceWar-Windows.exe	72f0085674550f98
+1235	1582	7860044033155867	D:/Users/shucai/Desktop/Cpp_SDL2_SpaceWar/SDLSpaceWar-Windows.exe	72f0085674550f98
 25	34	7849901288731343	clean	cc48df9061fc650c
-26	330	7855897213062519	CMakeFiles/SDLSpaceWar-Windows.dir/source/main.cpp.obj	dd21788aa3989717
-21	529	7855915692969639	CMakeFiles/SDLSpaceWar-Windows.dir/source/Game.cpp.obj	1500778e7bdd6ef8
-44	1237	7857818254008292	CMakeFiles/SDLSpaceWar-Windows.dir/source/Game.cpp.obj	1500778e7bdd6ef8
-47	1239	7857818254038288	CMakeFiles/SDLSpaceWar-Windows.dir/source/SceneMain.cpp.obj	77f4928ab874530c
-16	1267	7857818253733093	CMakeFiles/SDLSpaceWar-Windows.dir/source/main.cpp.obj	dd21788aa3989717
-1267	1653	7857818266232300	D:/Users/shucai/Desktop/Cpp_SDL2_SpaceWar/SDLSpaceWar-Windows.exe	72f0085674550f98
-22	130	7857820749119254	CMakeFiles/SDLSpaceWar-Windows.dir/source/SceneMain.cpp.obj	77f4928ab874530c
 10	315	7857820749004139	CMakeFiles/SDLSpaceWar-Windows.dir/source/main.cpp.obj	dd21788aa3989717
-21	128	7857821671522046	CMakeFiles/SDLSpaceWar-Windows.dir/source/Game.cpp.obj	1500778e7bdd6ef8
-129	271	7857821672607254	D:/Users/shucai/Desktop/Cpp_SDL2_SpaceWar/SDLSpaceWar-Windows.exe	72f0085674550f98
-21	132	7857821881659379	CMakeFiles/SDLSpaceWar-Windows.dir/source/SceneMain.cpp.obj	77f4928ab874530c
-132	246	7857821882774929	D:/Users/shucai/Desktop/Cpp_SDL2_SpaceWar/SDLSpaceWar-Windows.exe	72f0085674550f98
-20	145	7857822069351489	CMakeFiles/SDLSpaceWar-Windows.dir/source/SceneMain.cpp.obj	77f4928ab874530c
-146	277	7857822070616750	D:/Users/shucai/Desktop/Cpp_SDL2_SpaceWar/SDLSpaceWar-Windows.exe	72f0085674550f98
-22	140	7857822328339827	CMakeFiles/SDLSpaceWar-Windows.dir/source/SceneMain.cpp.obj	77f4928ab874530c
-141	275	7857822329529943	D:/Users/shucai/Desktop/Cpp_SDL2_SpaceWar/SDLSpaceWar-Windows.exe	72f0085674550f98
-5	110	7857824153944314	CMakeFiles/SDLSpaceWar-Windows.dir/source/Game.cpp.obj	1500778e7bdd6ef8
-9	112	7857824153979350	CMakeFiles/SDLSpaceWar-Windows.dir/source/SceneMain.cpp.obj	77f4928ab874530c
-112	254	7857824155019507	D:/Users/shucai/Desktop/Cpp_SDL2_SpaceWar/SDLSpaceWar-Windows.exe	72f0085674550f98
+19	1232	7860044021001375	CMakeFiles/SDLSpaceWar-Windows.dir/source/Game.cpp.obj	1500778e7bdd6ef8
